@@ -1,0 +1,14 @@
+{
+  "name": "zakat-media",
+  "version": "4.0.0",
+  "description": "Закат медиа: музыкальный журнал с админ-панелью для Vercel. Без внешних зависимостей.",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "setup": "node scripts/setup.js",
+    "hash": "node scripts/hash-password.js",
+    "test": "node --test tests/smoke.test.js"
+  },
+  "engines": { "node": "22.x" },
+  "license": "UNLICENSED",
+  "private": true
+}
