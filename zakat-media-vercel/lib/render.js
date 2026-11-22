@@ -26,7 +26,7 @@ function layout({ title, description = "Закат медиа: музыкаль�
 <footer class="foot">
 <p class="online" aria-live="off"><span class="dot" aria-hidden="true"></span>Сейчас на сайте: <b id="online-count">…</b></p>
 <p>© Закат медиа</p>
-<p class="disclaimer">Счётчик демонстрационный: числа не отражают реальных посетителей сайта.</p></footer>
+</footer>
 <script src="/static/counter-model.js" defer></script><script src="/static/counter.js" defer></script></body></html>`;
 }
 
