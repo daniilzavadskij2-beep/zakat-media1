@@ -111,7 +111,9 @@ td .title { color: var(--text); font-size: 15px; }
   .adm-main { padding: 28px 20px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
-
+@media (max-width: 600px) {
+  .top { gap: 21px; }
+}
 /* вход и редактор в серверной версии */
 body.login { align-items: center; justify-content: center; }
 .login-box { width: min(380px, 90vw); display: flex; flex-direction: column; gap: 18px; padding: 36px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; }
