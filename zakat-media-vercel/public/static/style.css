@@ -112,7 +112,7 @@ td .title { color: var(--text); font-size: 15px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 @media (max-width: 600px) {
-  .top { gap: 21px; }
+  .top { gap: 10px; }
 }
 /* вход и редактор в серверной версии */
 body.login { align-items: center; justify-content: center; }
